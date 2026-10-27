@@ -1,16 +1,44 @@
-
 main {
-    background-color: rgb(25, 217, 25);
-    float: center;
-
-}
+    background-color: rgb(68, 246, 68);
+    float: left;
+    height: 90vh;
+    border: 2px solid;
+    width: calc(80% - 10px);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 90vh; 
+    box-sizing: border-box;
 
 aside {
-    background-color: rgb(25, 217, 25);
-    float: right;
+    background-color: rgb(245, 74, 74);
+    float: left;
+    border: 2px solid;
+    width: calc(10% - 10px);
+    margin-right: 5px;
+    height: 90vh;
+    margin-top: 10px;
+
+    writing-mode: vertical-rl;
+    text-align: center;
+    
+    line-height: calc(10vh - 10px); 
+    box-sizing: border-box;
 }
 
 nav {
-    background-color: rgb(25, 217, 25);
+    background-color: rgb(117, 196, 249);
     float: left;
+    border: 2px solid;
+    width: calc(10% - 10px);
+    margin-left: 5px;
+    height: 90vh;
+    margin-top: 10px;
+
+    writing-mode: vertical-rl;
+    text-align: center;
+    
+    line-height: calc(10vh - 10px); 
+    box-sizing: border-box;
 }
